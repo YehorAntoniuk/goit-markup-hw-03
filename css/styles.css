@@ -167,11 +167,10 @@ ul {
     margin: 0;
 }
 
-.heaader-gruop {
+.contact-list {
     margin-left: auto;
 }
-   
-
+  
 /* почта телефон */
 
 .contact-link {
@@ -222,6 +221,9 @@ ul {
 }
 
 /* секция особенности */
+.benefits {
+    padding-bottom: 0;
+}
 .benefits-list {
     display: flex;
     align-items: center;
@@ -484,5 +486,8 @@ color: var(--address-link-cl);
 
 .address .link {
     display: block;
+}
+
+.address-item:not(:last-child) {
     margin-bottom: 9px;
 }
